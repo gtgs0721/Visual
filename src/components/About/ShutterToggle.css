@@ -1,0 +1,31 @@
+.iframe-container {
+    width: 100%;
+    overflow: hidden;
+    max-height: 0;
+    transition: max-height 1s ease-in-out; /* Adjust transition duration */
+    z-index: 999;
+}
+
+.iframe-container iframe {
+    width: 100%;
+    border: none;
+}
+
+.toggle-button {
+    display: inline-block;
+    padding: 30px 20px;
+    background-color: transparent; /* No background */
+    color: rgb(26, 110, 129); /* Text color */
+    border: none;
+    cursor: pointer;
+    transition: color 0.3s;
+    font-size: 40px; /* Adjust font size */
+}
+
+.toggle-button:hover {
+    color: #0a8d8f; /* Hover text color */
+}
+
+.iframe-container.open {
+    max-height: 800px; /* Adjust to your iframe's height */
+}

@@ -1,0 +1,17 @@
+/* MyChart.css */
+
+.MyChart-container {
+  background-color: #FFA500; /* 橙色背景 */
+  padding: 20px;
+  border-radius: 8px;
+}
+
+.MyChart-title {
+  font-size: 24px;
+  color: #fff; /* 白色标题 */
+}
+
+.MyChart-chart {
+  height: 400px;
+  width: 100%;
+}

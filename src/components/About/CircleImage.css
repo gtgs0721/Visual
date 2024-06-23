@@ -1,0 +1,8 @@
+.circle-image {
+  position: fixed;
+  top: 54%;
+  left: 50%;
+  transform: translate(-50%, -50%); /* 将图片居中 */
+  transition: transform 1s; /* 添加平滑过渡效果 */
+  z-index: -1;
+}

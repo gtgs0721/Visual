@@ -1,0 +1,17 @@
+@font-face {
+  font-family: "FZSUXSGYSJW";
+  src: url("/public/FZSUXSGYSJW.TTF") format("truetype");
+}
+
+@font-face {
+  font-family: "FZSJSJW";
+  src: url("/public/FZSJSJW.TTF") format("truetype");
+}
+
+body {
+  margin: 0;
+  font-family: "FZSUXSGYSJW", serif !important;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-image: url('/./public/background.png');
+}

@@ -1,0 +1,15 @@
+.map-container {
+    display: flex;
+    justify-content: space-between; /* 让子元素在父容器中左右对齐 */
+  }
+  
+  /* 可选的样式，根据需要自行调整 */
+  .KeplerMap,
+  .KeplerMap2 {
+    width: 48%; /* 给子元素指定宽度，留出一定的间隔 */
+  }
+
+  body {
+    background-color: #ffffff; /* 浅灰色 */
+  }
+  
