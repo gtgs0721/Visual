@@ -3,7 +3,7 @@ import { Container,  } from "react-bootstrap";
 import Particle from "../Particle";
 import Home2 from "./Home2";
 import Type from "./Type";
-import pic1 from "../../Assets/pic1.svg";
+import pic11 from "../../Assets/pic11.svg";
 
 function Home() {
   return (
@@ -12,7 +12,7 @@ function Home() {
         <Particle />
         <Container className="home-content">
           <img
-             src={pic1}
+             src={pic11}
              alt="home pic"
              style={{
               marginTop: "-100px",
